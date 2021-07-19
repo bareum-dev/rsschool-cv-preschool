@@ -138,9 +138,10 @@ Now I'm studing JavaScript and working on my english.
 }
 ```
 
+## EDUCATION
+Moscow Institute of Enterpreneurship and Law (MIPP) - B.A. Economics  
+2007-2012
 
-
-
-
-
+## LANGUAGE
+English A1-A2
 
