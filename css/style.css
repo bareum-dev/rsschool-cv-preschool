@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.wrapper {
+  margin: 25px auto;
+  padding: 220px 50px 25px 50px;
+
+  display: flex;
+  flex-flow: wrap row;
+  width: 1050px;
+  height: auto;
+
+  background-color: #EFEFEF;
+  box-shadow: 10px 10px 35px #929799;
+  box-sizing: border-box;
+}
+
+
+
+/* GENERAL */
+
+h2 {
+  padding: 0 0 25px 0;
+  color: #FF7948;
+}
+
+li {
+  list-style-type: none;
+  padding: 0 0 15px 0;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #442f28;
+  transition: 300ms ease;
+}
+
+a:hover {
+  color: #FF7948;
+}
+
+mark {
+  background-color: transparent;
+  font-weight: 700;
+}
+
+
+
+/* HEADER */
+
+.header {
+  width: 300px;
+  height: 700px;
+  margin: 0 25px 0 0;
+}
+
+.header-name {
+  width: 300px;
+  height: 180px;
+  background-color: #FF7948;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 0 75px 0;
+}
+
+h1 {
+  padding: 75px 0 10px 0;
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+}
+
+.header-name p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.header-avatar {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  top: -300px;
+  left: 40px;
+}
+
+.header-name img {
+  filter: contrast(1.1);
+  transition: 300ms ease;
+}
+
+.header-name img:hover {
+  transform: scale(1.1);
+}
+
+.header-contacts {
+  padding: 0 0 0 30px;
+  color: #442f28;
+}
+
+
+
+/* MAIN */
+
+.main {
+  width: 625px;
+  height: 820px;
+  display: flex;
+  align-content: space-between;
+  flex-flow: wrap column;
+  gap: 25px;
+}
+
+.main p,
+.main pre {
+  font-size: 18px;
+  color: #442f28;
+}
+
+.main-item {
+  width: 300px;
+  height: auto;
+  box-sizing: border-box;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+hr {
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #c6bfbe;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+  width: 950px;
+  height: 100px;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 10px 0 0 0;
+  font-size: 18px;
+}
+
+.footer mark {
+  color: #FF7948;
+  font-size: 18px;
+}
+
+.logo {
+  transition: 300ms ease;
+}
+
+.logo:hover {
+  transform: translateY(-5px);
+}
